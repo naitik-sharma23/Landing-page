@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* ======================================================= */
+
+
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: url(/Assets/Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    /* background-color: aqua; */  
+}
+/* ======================================================== */
+.menu ul {
+  padding-top: 2%;
+  width: 40%;
+  display: flex;
+  float: left;
+  justify-content: space-around;
+}
+
+.menu ul li {
+  list-style-type: none;
+  font-size: 1.3rem;
+  color: #f1aeff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.menu ul li.active{
+    color: #fff7ae;
+    font-weight:700;
+}
+
+/* ======================================================= */
+.menu2 ul {
+  padding-top: 2%;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  float: right;
+}
+.menu2 ul li {
+  list-style-type: none;
+  font-size: 1.3rem;
+  color: #fff7ae;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+/* ======================================================== */
+
+main{
+   width: 100%;
+   height: 85vh;
+   /* background-color: blue; */
+   display: flex;
+   justify-content: baseline;
+   align-items:flex-end;
+   text-align: center;
+   color: whitesmoke;
+  
+}
+
+main .banner .app-text h1{
+    font-size: 2.3rem;
+    text-shadow: -2px -2px 1px #af142e;
+     margin-top: -11%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+main .banner .app-text p{
+    margin-bottom: 3%;
+    margin: 10px 60px;
+    word-spacing: .5rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
